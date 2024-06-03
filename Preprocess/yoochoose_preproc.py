@@ -25,7 +25,7 @@ def main(path: str):
         ]
     )
     data.columns = ["SessionId", "Time", "ItemId"]
-    data["Time"] = data.Time.view("int") // 10**9
+    data["Time"] = (data.Time.astype('int64') // 10**9).astype('int')
     
     data.sort_values(["SessionId", "Time", "ItemId"], inplace=True)
     mask = np.hstack(

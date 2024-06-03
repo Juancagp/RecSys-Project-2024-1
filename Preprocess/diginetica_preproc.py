@@ -17,8 +17,7 @@ def main(path: str):
         eventdatemin=("eventdate", "min")
     )
     view = pd.merge(view, sessionid_eventdate_min, on="sessionId", how="inner")
-    # view["time"] = (pd.to_datetime(view.eventdatemin).astype("int64") / 10**9).astype( ------------------------------------------------------
-    view["time"] = (pd.to_datetime(view.eventdatemin).astype(int) / 10**9).astype(
+    view["time"] = (pd.to_datetime(view.eventdatemin).astype("int64") / 10**9).astype(
         int
     ) * 1000 + view.timeframe
     view = pd.DataFrame(
@@ -139,24 +138,18 @@ def main(path: str):
         num_sessions.append(data.SessionId.nunique())
         num_items.append(data.ItemId.nunique())
         num_days.append((data.Time.max() - data.Time.min()) / tday)
-        # epoch = dt.datetime(1970, 1, 1, tzinfo=dt.timezone.utc)
-        # min_timestamp_value = data.Time.min() / 1000
-        # min_time = epoch + dt.timedelta(seconds=min_timestamp_value)
-        # max_timestamp_value = data.Time.max() / 1000
-        # max_time = epoch + dt.timedelta(seconds=max_timestamp_value)
+        epoch = dt.datetime(1970, 1, 1, tzinfo=dt.timezone.utc)
+        min_timestamp_value = data.Time.min() / 1000
+        min_time = epoch + dt.timedelta(seconds=min_timestamp_value)
+        max_timestamp_value = data.Time.max() / 1000
+        max_time = epoch + dt.timedelta(seconds=max_timestamp_value)
         start_times.append(
-            # min_time.strftime(
-            #     "%Y-%m-%d %H:%M:%S.%f"
-            # )
-            dt.datetime.utcfromtimestamp(data.Time.min() / 1000).strftime(
+            min_time.strftime(
                 "%Y-%m-%d %H:%M:%S.%f"
             )
         )
         end_times.append(
-            # max_time.strftime(
-            #     "%Y-%m-%d %H:%M:%S.%f"
-            # )
-            dt.datetime.utcfromtimestamp(data.Time.max() / 1000).strftime(
+            max_time.strftime(
                 "%Y-%m-%d %H:%M:%S.%f"
             )
         )

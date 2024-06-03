@@ -43,7 +43,7 @@ def main(path: str):
         pd.DataFrame({"product_id": items, "itemidx": np.arange(len(items))}),
         on="product_id",
     )
-    data["time"] = data.event_time.view("int") // 10**9
+    data["time"] = (data.event_time.astype("int64") // 10**9).astype("int")
     
     data.sort_values(["useridx", "time", "itemidx"], inplace=True)
     # view = data[data.event_type == "view"]
