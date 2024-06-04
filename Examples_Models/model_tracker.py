@@ -7,11 +7,16 @@ import subprocess
 from carbontracker import parser
 
 # Función para entrenar un modelo, rastrear las emisiones de CO2 y guardar la información de entrenamiento
-def track_training_C02_emissions(command, trained_model_folder):
+def track_training_C02_emissions(command, model_name):
+
+    json_file_path = os.path.join("..", "trained_models", model_name ,"trainingData.json")
+    logs_file_path = os.path.join("..", "trained_models", model_name ,"logs")
 
     codecarbon_tracker = EmissionsTracker()
-    carbontracker_tracker = CarbonTracker(epochs=1)
-    
+    carbontracker_tracker = CarbonTracker(epochs=1, log_dir=f'{logs_file_path}/logs/')
+
+    parser.print_aggregate(log_dir=f'{logs_file_path}/logs/')
+
     try:
         start_time = datetime.now()
 
@@ -32,9 +37,6 @@ def track_training_C02_emissions(command, trained_model_folder):
 
     except Exception as e:
         print(f"Unexpected Error: {e}")
-    
-    json_file_path = os.path.join("..", "trained_models", trained_model_folder ,"trainingData.json")
-    parser.parse_all_logs(log_dir=f"{json_file_path}")
 
     existing_data = []
     if os.path.exists(json_file_path):
