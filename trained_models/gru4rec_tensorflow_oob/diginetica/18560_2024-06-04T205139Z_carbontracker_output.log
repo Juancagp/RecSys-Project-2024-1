@@ -1,0 +1,36 @@
+2024-06-04 20:51:39 - CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090 Laptop GPU.
+2024-06-04 20:52:39 - CarbonTracker: Average carbon intensity during training was 374.46 gCO2/kWh at detected location: Santiago, Santiago Metropolitan, CL.
+2024-06-04 20:52:39 - CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:01:00
+	Energy:	0.012452121068 kWh
+	CO2eq:	4.662861475526 g
+	This is equivalent to:
+	0.043375455586 km travelled by car
+2024-06-04 20:52:39 - CarbonTracker: Live carbon intensity could not be fetched at detected location: Santiago, Santiago Metropolitan, CL. Defaulted to average carbon intensity for CL in 2021 of 374.46 gCO2/kWh. at detected location: Santiago, Santiago Metropolitan, CL.
+2024-06-04 20:52:39 - CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:01:00
+	Energy:	0.012452121068 kWh
+	CO2eq:	4.662861475526 g
+	This is equivalent to:
+	0.043375455586 km travelled by car
+2024-06-04 20:52:39 - CarbonTracker: Finished monitoring.
+2024-06-04 20:56:07 - CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090 Laptop GPU.
+2024-06-04 20:56:53 - CarbonTracker: Average carbon intensity during training was 374.46 gCO2/kWh at detected location: Santiago, Santiago Metropolitan, CL.
+2024-06-04 20:56:53 - CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:00:45
+	Energy:	0.011577595357 kWh
+	CO2eq:	4.335383752991 g
+	This is equivalent to:
+	0.040329151191 km travelled by car
+2024-06-04 20:56:54 - CarbonTracker: Live carbon intensity could not be fetched at detected location: Santiago, Santiago Metropolitan, CL. Defaulted to average carbon intensity for CL in 2021 of 374.46 gCO2/kWh. at detected location: Santiago, Santiago Metropolitan, CL.
+2024-06-04 20:56:54 - CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:00:45
+	Energy:	0.011577595357 kWh
+	CO2eq:	4.335383752991 g
+	This is equivalent to:
+	0.040329151191 km travelled by car
+2024-06-04 20:56:54 - CarbonTracker: Finished monitoring.

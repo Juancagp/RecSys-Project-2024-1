@@ -1,0 +1,5 @@
+2024-06-04 21:59:29,115 - CarbonIntensityThread - WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 374.46323 gCO2/kWh.
+2024-06-04 22:14:29,289 - CarbonIntensityThread - WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 374.46323 gCO2/kWh.
+2024-06-04 22:29:29,489 - CarbonIntensityThread - WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 374.46323 gCO2/kWh.
+2024-06-04 22:29:34,741 - MainThread - WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 374.46323 gCO2/kWh.
+2024-06-04 22:29:34,955 - MainThread - WARNING - Failed to retrieve carbon intensity: Defaulting to average carbon intensity 374.46323 gCO2/kWh.
