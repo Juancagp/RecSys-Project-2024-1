@@ -7,15 +7,15 @@ import subprocess
 from carbontracker import parser
 
 # Función para entrenar un modelo, rastrear las emisiones de CO2 y guardar la información de entrenamiento
-def track_training_C02_emissions(command, model_name):
+def track_training_C02_emissions(command, model_name, data_name):
 
-    json_file_path = os.path.join("..", "trained_models", model_name ,"trainingData.json")
-    logs_file_path = os.path.join("..", "trained_models", model_name ,"logs")
-
+    logs_file_path = os.path.join("..", "trained_models", model_name, data_name)
+    json_file_path = os.path.join(logs_file_path, "trainingData.json")
+    
     codecarbon_tracker = EmissionsTracker()
-    carbontracker_tracker = CarbonTracker(epochs=1, log_dir=f'{logs_file_path}/logs/')
+    carbontracker_tracker = CarbonTracker(epochs=1, log_dir=logs_file_path)
 
-    parser.print_aggregate(log_dir=f'{logs_file_path}/logs/')
+    # parser.print_aggregate(log_dir=logs_file_path)
 
     try:
         start_time = datetime.now()

@@ -1,0 +1,18 @@
+2024-06-04 18:32:53 - CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090 Laptop GPU.
+2024-06-04 18:39:32 - CarbonTracker: Average carbon intensity during training was 374.46 gCO2/kWh at detected location: Santiago, Santiago Metropolitan, CL.
+2024-06-04 18:39:32 - CarbonTracker: 
+Actual consumption for 1 epoch(s):
+	Time:	0:06:37
+	Energy:	0.093370648305 kWh
+	CO2eq:	34.963874551308 g
+	This is equivalent to:
+	0.325245344663 km travelled by car
+2024-06-04 18:39:32 - CarbonTracker: Live carbon intensity could not be fetched at detected location: Santiago, Santiago Metropolitan, CL. Defaulted to average carbon intensity for CL in 2021 of 374.46 gCO2/kWh. at detected location: Santiago, Santiago Metropolitan, CL.
+2024-06-04 18:39:32 - CarbonTracker: 
+Predicted consumption for 1 epoch(s):
+	Time:	0:06:37
+	Energy:	0.093370648305 kWh
+	CO2eq:	34.963874551308 g
+	This is equivalent to:
+	0.325245344663 km travelled by car
+2024-06-04 18:39:32 - CarbonTracker: Finished monitoring.
