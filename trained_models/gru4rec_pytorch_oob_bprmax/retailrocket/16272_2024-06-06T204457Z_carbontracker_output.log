@@ -1,0 +1,34 @@
+2024-06-06 20:44:57 - CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090 Laptop GPU.
+2024-06-06 20:47:20 - CarbonTracker: Traceback (most recent call last):
+  File "c:\Users\EVILAB\AppData\Local\Programs\Python\Python312\Lib\site-packages\carbontracker\tracker.py", line 293, in epoch_end
+    self.tracker.epoch_end()
+  File "c:\Users\EVILAB\AppData\Local\Programs\Python\Python312\Lib\site-packages\carbontracker\tracker.py", line 154, in epoch_end
+    self._log_epoch_measurements()
+  File "c:\Users\EVILAB\AppData\Local\Programs\Python\Python312\Lib\site-packages\carbontracker\tracker.py", line 172, in _log_epoch_measurements
+    power_avg = np.mean(comp.power_usages[-1], axis=0)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\EVILAB\AppData\Local\Programs\Python\Python312\Lib\site-packages\numpy\core\fromnumeric.py", line 3504, in mean
+    return _methods._mean(a, axis=axis, dtype=dtype,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\EVILAB\AppData\Local\Programs\Python\Python312\Lib\site-packages\numpy\core\_methods.py", line 102, in _mean
+    arr = asanyarray(a)
+          ^^^^^^^^^^^^^
+ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (15,) + inhomogeneous part.
+
+2024-06-06 20:48:04 - CarbonTracker: The following components were found: GPU with device(s) NVIDIA GeForce RTX 4090 Laptop GPU.
+2024-06-06 20:50:16 - CarbonTracker: Traceback (most recent call last):
+  File "c:\Users\EVILAB\AppData\Local\Programs\Python\Python312\Lib\site-packages\carbontracker\tracker.py", line 293, in epoch_end
+    self.tracker.epoch_end()
+  File "c:\Users\EVILAB\AppData\Local\Programs\Python\Python312\Lib\site-packages\carbontracker\tracker.py", line 154, in epoch_end
+    self._log_epoch_measurements()
+  File "c:\Users\EVILAB\AppData\Local\Programs\Python\Python312\Lib\site-packages\carbontracker\tracker.py", line 172, in _log_epoch_measurements
+    power_avg = np.mean(comp.power_usages[-1], axis=0)
+                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\EVILAB\AppData\Local\Programs\Python\Python312\Lib\site-packages\numpy\core\fromnumeric.py", line 3504, in mean
+    return _methods._mean(a, axis=axis, dtype=dtype,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\EVILAB\AppData\Local\Programs\Python\Python312\Lib\site-packages\numpy\core\_methods.py", line 102, in _mean
+    arr = asanyarray(a)
+          ^^^^^^^^^^^^^
+ValueError: setting an array element with a sequence. The requested array has an inhomogeneous shape after 1 dimensions. The detected shape was (14,) + inhomogeneous part.
+

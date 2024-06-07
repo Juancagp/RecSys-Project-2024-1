@@ -2,9 +2,7 @@ import os
 from codecarbon import EmissionsTracker
 from datetime import datetime
 import json
-from carbontracker.tracker import CarbonTracker
 import subprocess
-from carbontracker import parser
 
 # Función para entrenar un modelo, rastrear las emisiones de CO2 y guardar la información de entrenamiento
 def track_training_C02_emissions(command, model_name, data_name):
@@ -13,24 +11,19 @@ def track_training_C02_emissions(command, model_name, data_name):
     json_file_path = os.path.join(logs_file_path, "trainingData.json")
     
     codecarbon_tracker = EmissionsTracker()
-    carbontracker_tracker = CarbonTracker(epochs=1, log_dir=logs_file_path)
-
-    # parser.print_aggregate(log_dir=logs_file_path)
 
     try:
         start_time = datetime.now()
 
         codecarbon_tracker.start()
-        carbontracker_tracker.epoch_start()
 
         training_process = subprocess.run(command, shell=True, capture_output=True, text=True)
 
         emissions = codecarbon_tracker.stop()
-        carbontracker_tracker.epoch_end()
-        carbontracker_tracker.stop()
 
         end_time = datetime.now()
         print(f"Salida de STDOUT: {training_process.stdout}")
+        print(f"CO2_emissions_kg: {emissions}")
 
     except FileNotFoundError as e:
         print(f"Error: {e}")

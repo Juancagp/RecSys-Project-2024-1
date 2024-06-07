@@ -1,0 +1,26 @@
+[
+    {
+        "training_iteration": 1,
+        "date": "2024-06-06 20:40:41",
+        "execution_time_seconds": 131.519168,
+        "CO2_emissions_kg": 0.0021509704749087728
+    },
+    {
+        "training_iteration": 2,
+        "date": "2024-06-06 21:07:22",
+        "execution_time_seconds": 133.49839,
+        "CO2_emissions_kg": 0.0019020783359804871
+    },
+    {
+        "training_iteration": 3,
+        "date": "2024-06-06 21:10:57",
+        "execution_time_seconds": 129.249377,
+        "CO2_emissions_kg": 0.0016098692023428494
+    },
+    {
+        "training_iteration": 4,
+        "date": "2024-06-06 21:19:21",
+        "execution_time_seconds": 132.16627,
+        "CO2_emissions_kg": 0.0016419794150644483
+    }
+]
