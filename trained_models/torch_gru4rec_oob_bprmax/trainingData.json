@@ -129,5 +129,45 @@
         "CO2_emissions_kg": 0.003982573151883324,
         "LossFunction": "BPR-Max",
         "dataset": "Diginetica"
+    },
+    {
+        "training_iteration": 20,
+        "date": "2024-06-30 22:21:05",
+        "execution_time_seconds": 270.354644,
+        "CO2_emissions_kg": 0.002834789276485719,
+        "LossFunction": "BPR-Max",
+        "dataset": "Diginetica"
+    },
+    {
+        "training_iteration": 21,
+        "date": "2024-06-30 22:25:54",
+        "execution_time_seconds": 267.844672,
+        "CO2_emissions_kg": 0.0028333531046945987,
+        "LossFunction": "BPR-Max",
+        "dataset": "Diginetica"
+    },
+    {
+        "training_iteration": 22,
+        "date": "2024-06-30 22:37:26",
+        "execution_time_seconds": 250.015214,
+        "CO2_emissions_kg": 0.0025764633282325767,
+        "LossFunction": "BPR-Max",
+        "dataset": "Diginetica"
+    },
+    {
+        "training_iteration": 23,
+        "date": "2024-06-30 22:50:41",
+        "execution_time_seconds": 364.218678,
+        "CO2_emissions_kg": 0.004033082395334504,
+        "LossFunction": "BPR-Max",
+        "dataset": "Diginetica"
+    },
+    {
+        "training_iteration": 24,
+        "date": "2024-06-30 22:57:57",
+        "execution_time_seconds": 376.816293,
+        "CO2_emissions_kg": 0.0040605632061905105,
+        "LossFunction": "BPR-Max",
+        "dataset": "Diginetica"
     }
 ]
