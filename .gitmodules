@@ -16,6 +16,4 @@
 [submodule "recpack"]
 	path = recpack
 	url = https://github.com/czappi44/recpack.git
-[submodule "BERT4Rec"]
-	path = BERT4Rec
-	url = https://github.com/FeiSun/BERT4Rec.git
+

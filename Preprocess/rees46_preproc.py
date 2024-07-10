@@ -43,7 +43,7 @@ def main(path: str):
         pd.DataFrame({"product_id": items, "itemidx": np.arange(len(items))}),
         on="product_id",
     )
-    data["time"] = data.event_time.view("int") // 10**9
+    data["time"] = (data.event_time.astype("int64") // 10**9).astype("int")
     
     data.sort_values(["useridx", "time", "itemidx"], inplace=True)
     # view = data[data.event_type == "view"]
@@ -110,7 +110,7 @@ def main(path: str):
         }
     )
     processed.to_csv(
-        os.path.join(path, "rees46_processed_view_userbased_full.tsv"),
+        os.path.join(path, "rees46_processed_view_full.tsv"),
         sep="\t",
         index=False,
     )
@@ -121,14 +121,14 @@ def main(path: str):
     test = processed[processed.SessionId.isin(sbeg[sbeg >= tsplit - tday].index)]
     train = processed[processed.Time < tsplit - tday]
     test.to_csv(
-        os.path.join(path, "rees46_processed_view_userbased_test.tsv"),
+        os.path.join(path, "rees46_processed_view_test.tsv"),
         sep="\t",
         index=False,
     )
     sslength = train.groupby("SessionId").size()
     train = train[train.SessionId.isin(sslength[sslength > 1].index)]
     train.to_csv(
-        os.path.join(path, "rees46_processed_view_userbased_train_full.tsv"),
+        os.path.join(path, "rees46_processed_view_train_full.tsv"),
         sep="\t",
         index=False,
     )
@@ -138,12 +138,12 @@ def main(path: str):
     sslength2 = train2.groupby("SessionId").size()
     train2 = train2[train2.SessionId.isin(sslength2[sslength2 > 1].index)]
     train2.to_csv(
-        os.path.join(path, "rees46_processed_view_userbased_train_tr.tsv"),
+        os.path.join(path, "rees46_processed_view_train_tr.tsv"),
         sep="\t",
         index=False,
     )
     test2.to_csv(
-        os.path.join(path, "rees46_processed_view_userbased_train_valid.tsv"),
+        os.path.join(path, "rees46_processed_view_train_valid.tsv"),
         sep="\t",
         index=False,
     )
