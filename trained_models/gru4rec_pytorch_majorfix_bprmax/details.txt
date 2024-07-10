@@ -1,0 +1,4 @@
+Recall20 for BPR: 0.1796 
+MRR20 for BPR: 0.0510 
+
+for Cross-Entropy-Loss: Recall@20: 0.15457733 MRR@20: 0.04121002

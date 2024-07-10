@@ -1,18 +1,19 @@
 [submodule "GRU4Rec_TensorFlow"]
 	path = GRU4Rec_TensorFlow
-	url = git@github.com:czappi44/GRU4Rec_TensorFlow.git
+	url = https://github.com/czappi44/GRU4Rec_TensorFlow.git
 [submodule "GRU4REC-pytorch"]
 	path = GRU4REC-pytorch
-	url = git@github.com:czappi44/GRU4REC-pytorch.git
+	url = https://github.com/czappi44/GRU4REC-pytorch.git
 [submodule "KerasGRU4Rec"]
 	path = KerasGRU4Rec
-	url = git@github.com:czappi44/KerasGRU4Rec.git
+	url = https://github.com/czappi44/KerasGRU4Rec.git
 [submodule "Torch-GRU4Rec"]
 	path = Torch-GRU4Rec
-	url = git@github.com:czappi44/Torch-GRU4Rec.git
+	url = https://github.com/czappi44/Torch-GRU4Rec.git
 [submodule "GRU4Rec"]
 	path = GRU4Rec
 	url = https://github.com/hidasib/GRU4Rec.git
 [submodule "recpack"]
 	path = recpack
-	url = git@github.com:czappi44/recpack.git
+	url = https://github.com/czappi44/recpack.git
+
