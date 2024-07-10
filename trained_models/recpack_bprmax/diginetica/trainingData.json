@@ -4,5 +4,11 @@
         "date": "2024-06-06 21:58:43",
         "execution_time_seconds": 1812.158369,
         "CO2_emissions_kg": 0.021795618494506126
+    },
+    {
+        "training_iteration": 2,
+        "date": "2024-06-06 22:32:01",
+        "execution_time_seconds": 1850.983218,
+        "CO2_emissions_kg": 0.023829472647211822
     }
 ]
