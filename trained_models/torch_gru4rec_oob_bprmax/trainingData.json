@@ -1,0 +1,173 @@
+[
+    {
+        "training_iteration": 1,
+        "dataset": "Coveo",
+        "LossFunction": "BPR-Max",
+        "date": "2024-06-05 00:41:15",
+        "execution_time_seconds": 420.673119,
+        "CO2_emissions_kg": 0.003098034824237631
+    },
+    {
+        "training_iteration": 2,
+        "date": "2024-06-05 00:51:22",
+        "dataset": "Coveo",
+        "LossFunction": "BPR-Max",
+        "execution_time_seconds": 294.002899,
+        "CO2_emissions_kg": 0.002957571643316946
+    },
+    {
+        "training_iteration": 3,
+        "date": "2024-06-05 01:09:49",
+        "dataset": "Coveo",
+        "LossFunction": "BPR-Max",
+        "execution_time_seconds": 313.396431,
+        "CO2_emissions_kg": 0.0031279467082101827
+    },
+    {
+        "training_iteration": 4,
+        "date": "2024-06-05 01:16:35",
+        "dataset": "Coveo",
+        "LossFunction": "BPR-Max",
+        "execution_time_seconds": 308.915918,
+        "CO2_emissions_kg": 0.0030938678479460503
+    },
+    {
+        "training_iteration": 5,
+        "date": "2024-06-05 01:22:46",
+        "execution_time_seconds": 294.201735,
+        "CO2_emissions_kg": 0.0029951692884164684
+    },
+    {
+        "training_iteration": 6,
+        "date": "2024-06-05 01:32:20",
+        "execution_time_seconds": 298.353768,
+        "CO2_emissions_kg": 0.0030268465033896266
+    },
+    {
+        "training_iteration": 7,
+        "date": "2024-06-05 01:38:16",
+        "execution_time_seconds": 301.47869,
+        "CO2_emissions_kg": 0.0030492278448605655
+    },
+    {
+        "training_iteration": 8,
+        "date": "2024-06-05 01:43:19",
+        "execution_time_seconds": 289.051621,
+        "CO2_emissions_kg": 0.0029601826032321656
+    },
+    {
+        "training_iteration": 9,
+        "date": "2024-06-05 01:48:10",
+        "execution_time_seconds": 285.218294,
+        "CO2_emissions_kg": 0.0029293371224048295
+    },
+    {
+        "training_iteration": 10,
+        "date": "2024-06-05 01:52:57",
+        "execution_time_seconds": 288.703875,
+        "CO2_emissions_kg": 0.0029585540809581937
+    },
+    {
+        "training_iteration": 11,
+        "date": "2024-06-05 01:57:48",
+        "execution_time_seconds": 284.944677,
+        "CO2_emissions_kg": 0.002927096530469657
+    },
+    {
+        "training_iteration": 12,
+        "date": "2024-06-05 02:02:34",
+        "execution_time_seconds": 294.302789,
+        "CO2_emissions_kg": 0.002992334951985019
+    },
+    {
+        "training_iteration": 13,
+        "date": "2024-06-07 12:40:45",
+        "execution_time_seconds": 979.441362,
+        "CO2_emissions_kg": 0.009533558564050661,
+        "LossFunction": "Cross-Entropy-Loss"
+    },
+    {
+        "training_iteration": 14,
+        "date": "2024-06-07 12:57:06",
+        "execution_time_seconds": 968.770193,
+        "CO2_emissions_kg": 0.009436100610776058,
+        "LossFunction": "Cross-Entropy-Loss"
+    },
+    {
+        "training_iteration": 15,
+        "date": "2024-06-07 13:13:17",
+        "execution_time_seconds": 930.336415,
+        "CO2_emissions_kg": 0.009157141734534583,
+        "LossFunction": "Cross-Entropy-Loss"
+    },
+    {
+        "training_iteration": 16,
+        "date": "2024-06-07 13:28:49",
+        "execution_time_seconds": 919.657989,
+        "CO2_emissions_kg": 0.009075982769542855,
+        "LossFunction": "Cross-Entropy-Loss"
+    },
+    {
+        "training_iteration": 17,
+        "date": "2024-06-07 13:44:10",
+        "execution_time_seconds": 943.338233,
+        "CO2_emissions_kg": 0.009256772841389559,
+        "LossFunction": "Cross-Entropy-Loss"
+    },
+    {
+        "training_iteration": 18,
+        "date": "2024-06-07 15:07:33",
+        "execution_time_seconds": 245.925656,
+        "CO2_emissions_kg": 0.002539309991275231,
+        "LossFunction": "BPR-Max",
+        "dataset": "Retail Rocket"
+    },
+    {
+        "training_iteration": 19,
+        "date": "2024-06-07 15:41:06",
+        "execution_time_seconds": 361.816432,
+        "CO2_emissions_kg": 0.003982573151883324,
+        "LossFunction": "BPR-Max",
+        "dataset": "Diginetica"
+    },
+    {
+        "training_iteration": 20,
+        "date": "2024-06-30 22:21:05",
+        "execution_time_seconds": 270.354644,
+        "CO2_emissions_kg": 0.002834789276485719,
+        "LossFunction": "BPR-Max",
+        "dataset": "Diginetica"
+    },
+    {
+        "training_iteration": 21,
+        "date": "2024-06-30 22:25:54",
+        "execution_time_seconds": 267.844672,
+        "CO2_emissions_kg": 0.0028333531046945987,
+        "LossFunction": "BPR-Max",
+        "dataset": "Diginetica"
+    },
+    {
+        "training_iteration": 22,
+        "date": "2024-06-30 22:37:26",
+        "execution_time_seconds": 250.015214,
+        "CO2_emissions_kg": 0.0025764633282325767,
+        "LossFunction": "BPR-Max",
+        "dataset": "Diginetica"
+    },
+    {
+        "training_iteration": 23,
+        "date": "2024-06-30 22:50:41",
+        "execution_time_seconds": 364.218678,
+        "CO2_emissions_kg": 0.004033082395334504,
+        "LossFunction": "BPR-Max",
+        "dataset": "Diginetica"
+    },
+    {
+        "training_iteration": 24,
+        "date": "2024-06-30 22:57:57",
+        "execution_time_seconds": 376.816293,
+        "CO2_emissions_kg": 0.0040605632061905105,
+        "LossFunction": "BPR-Max",
+        "dataset": "Diginetica"
+    }
+]
