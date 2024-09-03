@@ -1,10 +1,14 @@
-# 14 Kg de CO2: Análisis de la Huella de Carbono y Rendimiento en Algoritmos de Recomendación Basados en Sesiones
+# 14 Kg of CO2: Analyzing the Carbon Footprint and Performance of Session-Based Recommendation Algorithms
+**Note:** This documentation is currently in Spanish, but an English version will be available soon.
 
 Repositorio oficial del estudio realizado para el proyecto del curso Sistemas Recomendadores 2024-1 de la Pontificia Universidad Católica de Chile.
 
 **Alumnos**
-- Juan Carlos Gil
 - Alejandro Plaza
+- Juan Gil
+
+**Profesor**
+- Denis Parra
 
 <br>
 
