@@ -3,13 +3,6 @@
 
 Repositorio oficial del estudio realizado para el proyecto del curso Sistemas Recomendadores 2024-1 de la Pontificia Universidad Católica de Chile.
 
-**Alumnos**
-- Alejandro Plaza
-- Juan Gil
-
-**Profesor**
-- Denis Parra
-
 <br>
 
 Este proyecto está fuertemente basado en el paper *The Effect of Third Party Implementations on Reproducibility* de  Balázs Hidasi y Ádám Tibor Czapp. Se puede encontrar más información sobre las implementaciones utilizadas en el [repositorio oficial](https://github.com/hidasib/gru4rec_third_party_comparison) de dicha investigación.
